@@ -1,0 +1,217 @@
+/*obra ta danay gradient kay dapat sa unahon permi HAHAHAHA ok*/
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vw; /* Set the height to fill the entire viewport */
+  background: linear-gradient(to bottom, #a9f1df, #d1d8ce, #ffbbbb);
+}
+
+
+.card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  
+  .card h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .card p {
+    font-size: 14px;
+  }
+
+  .card:hover {
+    transform: scale(1.05); /* Scale up the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add a stronger shadow on hover */
+  }
+
+/*balikan and card pero sya ND*/
+/*.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+*/
+  /*Change the image background*/
+  .card img {
+    max-width: 100%;
+    height: auto; 
+    width: 150px; 
+  }
+
+  /*remove the image background kakas gd na sa HAAAHA*/
+  .card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .card img {
+    max-width: 100%;
+    height: auto;
+    width: 150px; /* Adjust image size as needed */
+  }
+  
+/*nav lang na di sa dalom, ND pwede iban kay sya lang gid*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-btn {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+}
+
+.bar {
+  background-color: #fff;
+  height: 3px;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.menu-btn.open .bar:nth-child(1) {
+  transform: rotate(-45deg) translate(-3px, 6px);
+}
+
+.menu-btn.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn.open .bar:nth-child(3) {
+  transform: rotate(45deg) translate(-3px, -6px);
+}
+
+.menu {
+  display: none;
+}
+
+.menu.open {
+  display: block;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.menu li {
+  margin: 10px 0;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+  }
+}
+/*button nga ga first move*/
+/* ... Your existing CSS ... */
+
+/* Button styles */
+.button-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button#revealButton {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button#revealButton:hover {
+  background-color: #555;
+  transform: scale(1.05);
+}
+
+/* Hidden card styles */
+.hidden-card {
+  display: none;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 20px;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.hidden-card.show {
+  display: block;
+  opacity: 1;
+  transform: translateY(-10px);
+}
+
+/*Diri nasa ma house ang mga card with infos*/
+.hiddenImage {
+  width: 60vw;
+  height: auto;
+}
+
+/*hover button*/
+button {
+  margin-bottom: 10px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.my-button {
+  background-color: #007bff; 
+  color: #fff;
+}
+
+.my-button:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
